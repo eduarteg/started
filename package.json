@@ -6,6 +6,11 @@
         "express": "3.x"
     },
     "scripts": {
-        "start": "node server.js"
+        "start": "node server.js",
+        "postinstall": "bower install",
+        "preupdate-webdriver": "npm install"
+    },
+    "devDependencies": {
+
     }
 }

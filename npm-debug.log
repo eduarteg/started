@@ -1,17 +1,171 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'start', 'server.js' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.33
-4 error Error: ENOENT, open '/Users/eduarte/ProyectosPersonales/node_modules/server.js/package.json'
-5 error If you need help, you may report this *entire* log,
-5 error including the npm and node versions, at:
-5 error     <http://github.com/npm/npm/issues>
-6 error System Darwin 14.1.0
-7 error command "node" "/usr/local/bin/npm" "start" "server.js"
-8 error cwd /Users/eduarte/ProyectosPersonales
-9 error node -v v0.10.33
-10 error npm -v 1.4.28
-11 error path /Users/eduarte/ProyectosPersonales/node_modules/server.js/package.json
-12 error code ENOENT
-13 error errno 34
-14 verbose exit [ 34, true ]
+4 warn package.json HolaMundoEnAngular@0.0.1 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/eduarte/ProyectosPersonales/started',
+6 verbose install   [ 'express', 'preupdate-webdriver', 'postinstall' ] ]
+7 info preinstall HolaMundoEnAngular@0.0.1
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping express@3.x /Users/eduarte/ProyectosPersonales/started
+10 verbose cache add [ 'preupdate-webdriver@npm install', null ]
+11 verbose cache add name=undefined spec="preupdate-webdriver@npm install" args=["preupdate-webdriver@npm install",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'preupdate-webdriver@npm%20install',
+12 verbose parsed url   path: 'preupdate-webdriver@npm%20install',
+12 verbose parsed url   href: 'preupdate-webdriver@npm%20install' }
+13 verbose cache add [ 'postinstall@bower install', null ]
+14 verbose cache add name=undefined spec="postinstall@bower install" args=["postinstall@bower install",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'postinstall@bower%20install',
+15 verbose parsed url   path: 'postinstall@bower%20install',
+15 verbose parsed url   href: 'postinstall@bower%20install' }
+16 verbose cache add name="preupdate-webdriver" spec="npm install" args=["preupdate-webdriver","npm install"]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'npm%20install',
+17 verbose parsed url   path: 'npm%20install',
+17 verbose parsed url   href: 'npm%20install' }
+18 verbose addNamed [ 'preupdate-webdriver', 'npm install' ]
+19 verbose addNamed [ null, null ]
+20 verbose cache add name="postinstall" spec="bower install" args=["postinstall","bower install"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: 'bower%20install',
+21 verbose parsed url   path: 'bower%20install',
+21 verbose parsed url   href: 'bower%20install' }
+22 verbose addNamed [ 'postinstall', 'bower install' ]
+23 verbose addNamed [ null, null ]
+24 silly lockFile 99dd9c1f-preupdate-webdriver-npm-install preupdate-webdriver@npm install
+25 verbose lock preupdate-webdriver@npm install /Users/eduarte/.npm/99dd9c1f-preupdate-webdriver-npm-install.lock
+26 silly lockFile 22fd62b1-postinstall-bower-install postinstall@bower install
+27 verbose lock postinstall@bower install /Users/eduarte/.npm/22fd62b1-postinstall-bower-install.lock
+28 info addNameTag [ 'preupdate-webdriver', 'npm install' ]
+29 info addNameTag [ 'postinstall', 'bower install' ]
+30 verbose request where is /preupdate-webdriver
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id 489a91bbf4c0e1a1
+33 verbose url raw /preupdate-webdriver
+34 verbose url resolving [ 'https://registry.npmjs.org/', './preupdate-webdriver' ]
+35 verbose url resolved https://registry.npmjs.org/preupdate-webdriver
+36 verbose request where is https://registry.npmjs.org/preupdate-webdriver
+37 info trying registry request attempt 1 at 12:17:14
+38 http GET https://registry.npmjs.org/preupdate-webdriver
+39 verbose request where is /postinstall
+40 verbose request registry https://registry.npmjs.org/
+41 verbose url raw /postinstall
+42 verbose url resolving [ 'https://registry.npmjs.org/', './postinstall' ]
+43 verbose url resolved https://registry.npmjs.org/postinstall
+44 verbose request where is https://registry.npmjs.org/postinstall
+45 info trying registry request attempt 1 at 12:17:14
+46 http GET https://registry.npmjs.org/postinstall
+47 http 404 https://registry.npmjs.org/postinstall
+48 verbose headers { date: 'Fri, 20 Mar 2015 15:11:58 GMT',
+48 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+48 verbose headers   'content-type': 'application/json',
+48 verbose headers   'cache-control': 'max-age=0',
+48 verbose headers   'content-length': '51',
+48 verbose headers   'accept-ranges': 'bytes',
+48 verbose headers   via: '1.1 varnish',
+48 verbose headers   age: '0',
+48 verbose headers   'x-served-by': 'cache-jfk1033-JFK',
+48 verbose headers   'x-cache': 'MISS',
+48 verbose headers   'x-cache-hits': '0',
+48 verbose headers   'x-timer': 'S1426864318.128169,VS0,VE22',
+48 verbose headers   'keep-alive': 'timeout=10, max=50',
+48 verbose headers   connection: 'Keep-Alive' }
+49 silly registry.get cb [ 404,
+49 silly registry.get   { date: 'Fri, 20 Mar 2015 15:11:58 GMT',
+49 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+49 silly registry.get     'content-type': 'application/json',
+49 silly registry.get     'cache-control': 'max-age=0',
+49 silly registry.get     'content-length': '51',
+49 silly registry.get     'accept-ranges': 'bytes',
+49 silly registry.get     via: '1.1 varnish',
+49 silly registry.get     age: '0',
+49 silly registry.get     'x-served-by': 'cache-jfk1033-JFK',
+49 silly registry.get     'x-cache': 'MISS',
+49 silly registry.get     'x-cache-hits': '0',
+49 silly registry.get     'x-timer': 'S1426864318.128169,VS0,VE22',
+49 silly registry.get     'keep-alive': 'timeout=10, max=50',
+49 silly registry.get     connection: 'Keep-Alive' } ]
+50 silly lockFile 22fd62b1-postinstall-bower-install postinstall@bower install
+51 silly lockFile 22fd62b1-postinstall-bower-install postinstall@bower install
+52 http 404 https://registry.npmjs.org/preupdate-webdriver
+53 verbose headers { date: 'Fri, 20 Mar 2015 15:11:58 GMT',
+53 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+53 verbose headers   'content-type': 'application/json',
+53 verbose headers   'cache-control': 'max-age=0',
+53 verbose headers   'content-length': '51',
+53 verbose headers   'accept-ranges': 'bytes',
+53 verbose headers   via: '1.1 varnish',
+53 verbose headers   age: '0',
+53 verbose headers   'x-served-by': 'cache-jfk1021-JFK',
+53 verbose headers   'x-cache': 'MISS',
+53 verbose headers   'x-cache-hits': '0',
+53 verbose headers   'x-timer': 'S1426864318.124433,VS0,VE91',
+53 verbose headers   'keep-alive': 'timeout=10, max=50',
+53 verbose headers   connection: 'Keep-Alive' }
+54 silly registry.get cb [ 404,
+54 silly registry.get   { date: 'Fri, 20 Mar 2015 15:11:58 GMT',
+54 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+54 silly registry.get     'content-type': 'application/json',
+54 silly registry.get     'cache-control': 'max-age=0',
+54 silly registry.get     'content-length': '51',
+54 silly registry.get     'accept-ranges': 'bytes',
+54 silly registry.get     via: '1.1 varnish',
+54 silly registry.get     age: '0',
+54 silly registry.get     'x-served-by': 'cache-jfk1021-JFK',
+54 silly registry.get     'x-cache': 'MISS',
+54 silly registry.get     'x-cache-hits': '0',
+54 silly registry.get     'x-timer': 'S1426864318.124433,VS0,VE91',
+54 silly registry.get     'keep-alive': 'timeout=10, max=50',
+54 silly registry.get     connection: 'Keep-Alive' } ]
+55 silly lockFile 99dd9c1f-preupdate-webdriver-npm-install preupdate-webdriver@npm install
+56 silly lockFile 99dd9c1f-preupdate-webdriver-npm-install preupdate-webdriver@npm install
+57 error 404 404 Not Found: postinstall
+57 error 404
+57 error 404 'postinstall' is not in the npm registry.
+57 error 404 You should bug the author to publish it
+57 error 404 It was specified as a dependency of 'HolaMundoEnAngular'
+57 error 404
+57 error 404 Note that you can also install from a
+57 error 404 tarball, folder, or http url, or git url.
+58 error System Darwin 14.1.0
+59 error command "node" "/usr/local/bin/npm" "install"
+60 error cwd /Users/eduarte/ProyectosPersonales/started
+61 error node -v v0.10.33
+62 error npm -v 1.4.28
+63 error code E404
+64 verbose exit [ 1, true ]
