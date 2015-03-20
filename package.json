@@ -1,16 +1,17 @@
 {
-    "name": "HolaMundoEnAngular",
-    "version": "0.0.1",
-    "description": "Mi primera aplicación en angular completa!",
-    "dependencies": {
-        "express": "3.x"
-    },
-    "scripts": {
-        "start": "node server.js",
-        "postinstall": "bower install",
-        "preupdate-webdriver": "npm install"
-    },
-    "devDependencies": {
-
-    }
+  "name": "HolaMundoEnAngular",
+  "version": "0.0.1",
+  "description": "Mi primera aplicación en angular completa!",
+  "dependencies": {
+    "express": "3.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "bower install",
+    "preupdate-webdriver": "npm install"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.8.0"
+  }
 }

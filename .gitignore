@@ -1,4 +1,4 @@
 .DS_Store
-.bower_components
-.node_modules
-.README.md
+bower_components
+node_modules
+vendor
