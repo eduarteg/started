@@ -1,0 +1,21 @@
+{
+  "name": "Proyecto Started",
+  "version": "0.0.1",
+  "homepage": "https://github.com/eduarteg/started",
+  "authors": [
+    "Eduardo Duarte eduartegallardo@gmail.com"
+  ],
+  "description": "Comenzar con Grunt y branches de GIT",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.3.9"
+  }
+}
